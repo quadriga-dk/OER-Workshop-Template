@@ -4,12 +4,16 @@ lang: de-DE
 
 # Technische Voraussetzungen
 
-Die technischen Voraussetzungen werden in [Technologie](../technologie/zusammenspiel_der_tools.md) ausführlich beschrieben.
+Dieses Template ist für die Nutzung im Rahmen des Workshops und mit GitHub ausgelegt. Sie benötigen einen GitHub-Account, wobei dieser auch nur für den Workshop erstellt werden kann.
 
-## Nutzung des Templates
+Für die Nutzung der GitHub-Pages-Funktionalität muss Ihre Übungs-OER öffentlich verfügbar sein.
 
-Um dieses Template zu Nutzen können Sie entweder die Template-Funktion in GitHub nutzen, oder Sie laden sich den aktuellen Zustand bspw. als `.zip`-Datei herunter und fügen sie einem neuen Repositorium hinzu.
+Die Bearbeitung der Dateien funktioniert am besten entweder in einem lokalen Editor direkt in GitHub. Sie können auch JupyterHub nutzen um bspw. Juypter Notebooks zu bearbeiten – so erstellte Dateien müssen heruntergeladen und dann in GitHub hochgeladen werden.
 
-Passen Sie dann die Inhalte an. Insbesondere sollten Sie achten auf die Einstellungen in `_config.yml` und das Inhaltsverzeichnis in `_toc.yml`.
+QUADRIGA nutzt als zugrundeliegende Technologie [Jupyter Book](https://jupyterbook.org/intro.html) {cite}`executable_books_community_2021`.
 
-Wollen Sie GitHub-Pages für die Veröffentlichung des Jupyter Books nutzen, so müssen Sie einerseits die Funktionalität in den Einstellungen der Repositoriums anpassen und die GitHub Action in `.github/workflows/deploy-book.yml` anpassen und aktivieren. Zudem muss das Repositorium normalerweise öffentlich sein.
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+:style: plain
+```

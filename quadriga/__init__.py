@@ -1,8 +1,7 @@
 """
-QUADRIGA OER Tools and Utilities.
+QUADRIGA OER Tools and Utilities (simplified).
 
-This module contains all configurations for the various libraries used in QUADRIGA OERs 
-as well as update scripts for metadata files.
+This module contains the jupyter quiz color configuration.
 """
 
 __version__ = "0.1.0"
