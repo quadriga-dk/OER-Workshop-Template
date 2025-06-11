@@ -1,4 +1,3 @@
-
 # Autor:innen
 
 ## Workshop-Verantwortliche
