@@ -2,9 +2,6 @@ name: Deploy book with Python
 
 on:
   workflow_run:
-    workflows: ["Update Metadata"]
-    types:
-      - completed
     branches:
       - main
 
@@ -16,16 +13,15 @@ jobs:
     permissions:
       pages: write
       id-token: write
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
     # Python
-    - name: Set up Python 3.11
+    - name: Set up Python 3.13
       uses: actions/setup-python@v5
       with:
-        python-version: 3.11
+        python-version: 3.13
         cache: pip
 
     - name: Install Python dependencies
