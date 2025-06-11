@@ -1,6 +1,3 @@
-
-
-(lernziele)=
 # Lernziele
 
 ```{admonition} [Beispiellernziel](./lernziele.md)
